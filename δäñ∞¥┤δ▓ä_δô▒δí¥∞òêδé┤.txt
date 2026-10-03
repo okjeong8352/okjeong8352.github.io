@@ -1,0 +1,23 @@
+옥정홈마스터 홈페이지 SEO 업데이트 안내
+
+포함된 파일
+- index.html : 메인 홈페이지
+- yangju.html / uijeongbu.html / pocheon.html / dongducheon.html / yeoncheon.html : 지역별 안내 페이지
+- bathroom-remodeling.html / faucet.html / tile.html / sink-bowl.html / screen.html / led-lighting.html : 서비스별 안내 페이지
+- robots.txt : 검색로봇 접근 허용 + 사이트맵 위치 안내
+- sitemap.xml : 전체 페이지 URL 목록
+
+중요
+현재 sitemap.xml과 robots.txt는 예시 주소 https://okjeonghomemaster.github.io 를 기준으로 만들어져 있습니다.
+GitHub Pages 사용자명이 다르거나 개인 도메인을 연결하면 두 파일의 주소를 실제 대표 주소로 바꿔주세요.
+예: https://실제아이디.github.io/sitemap.xml
+
+네이버 서치어드바이저
+1. 실제 홈페이지 주소로 사이트를 등록합니다.
+2. 소유확인을 진행합니다.
+3. sitemap.xml 주소를 제출합니다.
+4. URL 검사에서 index.html 및 주요 지역 페이지를 확인합니다.
+5. robots.txt 수집/검증을 확인합니다.
+
+주의
+SEO 설정은 검색로봇이 사이트를 이해하기 쉽게 만드는 작업이며 특정 검색어의 상위 노출을 보장하지는 않습니다.

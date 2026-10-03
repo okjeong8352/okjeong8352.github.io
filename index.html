@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>양주 집수리 전문 옥정홈마스터 | 수전교체·방충망·욕실리모델링</title>
+<meta name="description" content="양주 옥정홈마스터. 양주, 의정부, 포천, 동두천, 연천 등 경기북부 출장 집수리 전문. 욕실·화장실 리모델링, 타일, 수전교체, 싱크볼교체, 방충망, LED조명 등 다양한 집수리 서비스를 제공합니다.">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#222222">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="옥정홈마스터">
+<meta property="og:title" content="양주 집수리 전문 옥정홈마스터">
+<meta property="og:description" content="양주를 중심으로 의정부·포천·동두천·연천까지 찾아가는 출장 집수리 전문업체입니다.">
+<meta property="og:image" content="images/bathroom.jpg">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+    font-family:-apple-system,BlinkMacSystemFont,"Noto Sans KR","Malgun Gothic",sans-serif;
+    color:#222;background:#f7f7f5;line-height:1.7;
+}
+a{text-decoration:none;color:inherit}
+img{display:block;width:100%}
+.container{width:min(1180px,92%);margin:0 auto}
+
+header{
+    position:sticky;top:0;z-index:9999;
+    background:rgba(255,255,255,.96);
+    backdrop-filter:blur(10px);
+    border-bottom:1px solid #eee;
+}
+.header-inner{
+    height:76px;display:flex;align-items:center;justify-content:space-between;
+}
+.logo{font-size:24px;font-weight:900;letter-spacing:-1.5px}
+.logo span{color:#b58a4a}
+nav{display:flex;gap:30px;font-size:15px;font-weight:700}
+nav a:hover{color:#b58a4a}
+.header-call{
+    padding:12px 20px;background:#222;color:#fff;border-radius:5px;
+    font-size:14px;font-weight:800;
+}
+
+.hero{
+    min-height:650px;display:flex;align-items:center;color:#fff;
+    background:
+      linear-gradient(rgba(20,20,20,.68),rgba(20,20,20,.68)),
+      url("images/bathroom.jpg") center/cover;
+}
+.hero-content{max-width:760px}
+.hero-label{
+    display:inline-block;padding:7px 16px;border:1px solid rgba(255,255,255,.5);
+    border-radius:30px;font-size:13px;margin-bottom:25px;
+}
+.hero h1{
+    font-size:clamp(40px,6vw,68px);line-height:1.15;letter-spacing:-4px;
+    font-weight:900;margin-bottom:25px;
+}
+.hero h1 strong{color:#d7b477}
+.hero p{font-size:18px;color:#eee;margin-bottom:35px}
+.hero-buttons{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-block;padding:15px 25px;border-radius:5px;font-weight:800}
+.btn-primary{background:#b58a4a;color:#fff}
+.btn-white{background:#fff;color:#222}
+
+.trust{background:#fff;padding:35px 0;border-bottom:1px solid #eee}
+.trust-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;text-align:center}
+.trust-number{font-size:28px;font-weight:900}
+.trust-text{font-size:14px;color:#777}
+
+section{padding:95px 0}
+.section-head{text-align:center;margin-bottom:50px}
+.section-label{font-size:13px;letter-spacing:1.5px;font-weight:900;color:#b58a4a}
+.section-title{font-size:40px;line-height:1.3;letter-spacing:-2px;margin:10px 0 15px;font-weight:900}
+.section-description{color:#777;font-size:16px}
+
+.services{background:#f7f7f5}
+.service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.service-card{
+    background:#fff;border:1px solid #e7e7e7;overflow:hidden;border-radius:5px;
+    transition:transform .3s,box-shadow .3s;
+}
+.service-card:hover{transform:translateY(-6px);box-shadow:0 18px 40px rgba(0,0,0,.10)}
+.service-image{height:245px;overflow:hidden;background:#eee}
+.service-image img{height:100%;object-fit:cover;transition:transform .5s}
+.service-card:hover .service-image img{transform:scale(1.06)}
+.service-info{padding:25px 28px 30px}
+.service-info h3{font-size:21px;font-weight:900;margin-bottom:9px;letter-spacing:-.8px}
+.service-info p{color:#777;font-size:14px;line-height:1.7}
+
+.about{background:#fff}
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}
+.about-image{
+    height:500px;
+    background:url("images/bathroom.jpg") center/cover;
+}
+.about h2{font-size:43px;line-height:1.25;letter-spacing:-3px;margin:12px 0 25px}
+.about p{color:#666;margin-bottom:18px}
+.check-list{list-style:none;margin-top:25px}
+.check-list li{padding:12px 0;border-bottom:1px solid #eee;font-weight:700}
+.check-list li::before{content:"✓";color:#b58a4a;font-weight:900;margin-right:10px}
+
+.process{background:#222;color:#fff}
+.process .section-description{color:#aaa}
+.process-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}
+.process-card{padding:35px 25px;border:1px solid #444}
+.process-number{font-size:43px;font-weight:900;color:#b58a4a;margin-bottom:12px}
+.process-card h3{font-size:20px;margin-bottom:10px}
+.process-card p{color:#aaa;font-size:14px}
+
+.area{background:#f7f7f5}
+.area-box{background:#fff;padding:55px;text-align:center;border:1px solid #e7e7e7}
+.area-box h3{font-size:24px;margin-bottom:25px}
+.area-list{display:flex;justify-content:center;flex-wrap:wrap;gap:10px}
+.area-list span{background:#f2f2ef;padding:12px 22px;border-radius:30px;font-weight:800}
+.area-box p{margin-top:25px;color:#777}
+
+.seo-content{background:#fff}
+.seo-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:25px}
+.seo-box{padding:32px;background:#f7f7f5;border-left:4px solid #b58a4a}
+.seo-box h3{font-size:20px;margin-bottom:10px}
+.seo-box p{color:#666;font-size:14px;line-height:1.8}
+
+.cta{
+    color:#fff;text-align:center;
+    background:linear-gradient(rgba(20,20,20,.88),rgba(20,20,20,.88)),
+               url("images/bathroom.jpg") center/cover;
+}
+.cta h2{font-size:43px;letter-spacing:-2px;margin-bottom:15px}
+.cta p{color:#ddd;margin-bottom:20px}
+.phone{color:#d7b477;font-size:35px;font-weight:900;margin-bottom:30px}
+
+footer{background:#111;color:#999;padding:45px 0 100px}
+.footer-logo{color:#fff;font-size:22px;font-weight:900;margin-bottom:15px}
+footer p{font-size:13px;line-height:1.9}
+
+.mobile-call{display:none}
+
+@media(max-width:900px){
+    nav{display:none}
+    .trust-grid{grid-template-columns:repeat(2,1fr)}
+    .service-grid{grid-template-columns:repeat(2,1fr)}
+    .about-grid{grid-template-columns:1fr;gap:40px}
+    .process-grid{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:600px){
+    .header-inner{height:65px}
+    .logo{font-size:20px}
+    .header-call{padding:9px 13px;font-size:13px}
+    .hero{min-height:600px}
+    .hero h1{font-size:40px;letter-spacing:-2.5px}
+    .hero p{font-size:15px}
+    section{padding:70px 0}
+    .section-title{font-size:30px}
+    .service-grid{grid-template-columns:1fr}
+    .service-image{height:230px}
+    .process-grid{grid-template-columns:1fr}
+    .about h2{font-size:32px}
+    .about-image{height:330px}
+    .seo-grid{grid-template-columns:1fr}
+    .area-box{padding:35px 20px}
+    .cta h2{font-size:31px}
+    .phone{font-size:27px}
+    footer{padding-bottom:90px}
+    .mobile-call{display:block;position:fixed;left:0;right:0;bottom:0;z-index:99999}
+    .mobile-call a{
+        display:block;text-align:center;padding:17px;background:#b58a4a;
+        color:#fff;font-size:17px;font-weight:900;
+    }
+}
+</style>
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"LocalBusiness",
+  "name":"옥정홈마스터",
+  "description":"양주, 의정부, 포천, 동두천, 연천 등 경기북부 출장 집수리 전문업체",
+  "telephone":"010-5717-8352",
+  "areaServed":["양주시","의정부시","포천시","동두천시","연천군"],
+  "serviceType":[
+    "집수리","욕실 리모델링","화장실 리모델링","타일 시공",
+    "수전 교체","싱크볼 교체","방충망 교체","LED 조명 교체"
+  ]
+}
+</script>
+</head>
+
+<body>
+
+<header>
+<div class="container header-inner">
+    <a href="#" class="logo">옥정<span>홈마스터</span></a>
+    <nav>
+        <a href="#services">서비스</a>
+        <a href="#about">전문가 소개</a>
+        <a href="#process">작업과정</a>
+        <a href="#area">출장지역</a>
+        <a href="#regions">지역별 안내</a>
+        <a href="#contact">상담문의</a>
+    </nav>
+    <a href="tel:01057178352" class="header-call">전화상담</a>
+</div>
+</header>
+
+<section class="hero">
+<div class="container">
+<div class="hero-content">
+    <div class="hero-label">경기북부 출장 집수리 전문</div>
+    <h1>집수리 하나도<br><strong>전문가답게.</strong></h1>
+    <p>양주를 중심으로 의정부·포천·동두천·연천까지<br>꼼꼼하고 깔끔하게 찾아가는 출장 집수리</p>
+    <div class="hero-buttons">
+        <a href="tel:01057178352" class="btn btn-primary">☎ 010-5717-8352</a>
+        <a href="#services" class="btn btn-white">서비스 알아보기</a>
+    </div>
+</div>
+</div>
+</section>
+
+<section class="trust">
+<div class="container trust-grid">
+    <div><div class="trust-number">01</div><div class="trust-text">약속시간을 지키는 출장</div></div>
+    <div><div class="trust-number">02</div><div class="trust-text">깔끔한 작업 마무리</div></div>
+    <div><div class="trust-number">03</div><div class="trust-text">현장에 맞는 해결 방법</div></div>
+    <div><div class="trust-number">04</div><div class="trust-text">정직한 상담을 원칙으로</div></div>
+</div>
+</section>
+
+<section class="services" id="services">
+<div class="container">
+<div class="section-head">
+    <div class="section-label">HOME REPAIR SERVICE</div>
+    <h2 class="section-title">필요한 집수리, 한 곳에서</h2>
+    <p class="section-description">작은 수리부터 욕실과 주방 작업까지 현장에 맞춰 진행합니다.</p>
+</div>
+
+<div class="service-grid">
+
+<article class="service-card">
+    <div class="service-image"><img src="images/bathroom.jpg" alt="양주 욕실 화장실 리모델링 시공"></div>
+    <div class="service-info">
+        <h3><a href="bathroom-remodeling.html">🚿 욕실·화장실 리모델링</a></h3>
+        <p>오래된 욕실의 분위기와 사용성을 바꾸는 욕실 및 화장실 리모델링 작업을 진행합니다.</p>
+    </div>
+</article>
+
+<article class="service-card">
+    <div class="service-image"><img src="images/faucet.jpg" alt="양주 수전교체 주방 욕실 수전"></div>
+    <div class="service-info">
+        <h3><a href="faucet.html">🔧 수전 교체</a></h3>
+        <p>주방과 욕실 수전 교체부터 누수와 사용 불편을 확인하고 현장에 맞게 작업합니다.</p>
+    </div>
+</article>
+
+<article class="service-card">
+    <div class="service-image"><img src="images/tile.jpg" alt="포천 욕실 타일 시공"></div>
+    <div class="service-info">
+        <h3><a href="tile.html">🧱 타일 시공</a></h3>
+        <p>욕실과 주방 등 필요한 공간의 타일 작업을 꼼꼼하게 진행합니다.</p>
+    </div>
+</article>
+
+<article class="service-card">
+    <div class="service-image"><img src="images/sink.jpg" alt="양주 싱크볼 교체 주방 집수리"></div>
+    <div class="service-info">
+        <h3><a href="sink-bowl.html">🍳 싱크볼 교체</a></h3>
+        <p>오래된 싱크볼 교체 및 주방 사용 환경에 맞춘 부분 집수리를 진행합니다.</p>
+    </div>
+</article>
+
+<article class="service-card">
+    <div class="service-image"><img src="images/screen.jpg" alt="의정부 방충망 교체"></div>
+    <div class="service-info">
+        <h3><a href="screen.html">🪟 방충망 교체</a></h3>
+        <p>찢어지거나 노후된 방충망을 교체하여 쾌적한 실내 환경을 만들어드립니다.</p>
+    </div>
+</article>
+
+<article class="service-card">
+    <div class="service-image"><img src="images/led.jpg" alt="양주 LED 조명 교체"></div>
+    <div class="service-info">
+        <h3><a href="led-lighting.html">💡 LED 조명 교체</a></h3>
+        <p>기존 조명을 LED 조명으로 교체하고 공간에 맞는 밝기를 고려해 작업합니다.</p>
+    </div>
+</article>
+
+</div>
+</div>
+</section>
+
+<section class="about" id="about">
+<div class="container about-grid">
+    <div class="about-image"></div>
+    <div>
+        <div class="section-label">ABOUT OKJEONG HOME MASTER</div>
+        <h2>집수리는 결국<br>사람이 하는 일입니다.</h2>
+        <p>옥정홈마스터는 경기북부 지역을 직접 찾아가는 출장 집수리 전문 업체입니다.</p>
+        <p>단순히 부품 하나를 교체하는 것에서 끝나는 것이 아니라 현재 문제가 무엇인지 확인하고 현장에 맞는 방법을 안내해드립니다.</p>
+        <ul class="check-list">
+            <li>양주 중심 경기북부 출장</li>
+            <li>현장 상태를 확인한 후 작업</li>
+            <li>작업 공간을 최대한 깔끔하게 관리</li>
+            <li>고객이 이해하기 쉬운 설명</li>
+        </ul>
+    </div>
+</div>
+</section>
+
+<section class="process" id="process">
+<div class="container">
+<div class="section-head">
+    <div class="section-label">WORK PROCESS</div>
+    <h2 class="section-title">처음부터 끝까지 꼼꼼하게</h2>
+    <p class="section-description">상담부터 작업 마무리까지 과정을 확인할 수 있습니다.</p>
+</div>
+<div class="process-grid">
+    <div class="process-card"><div class="process-number">01</div><h3>상담</h3><p>필요한 수리 내용을 전화로 상담합니다. 사진이 있다면 함께 확인할 수 있습니다.</p></div>
+    <div class="process-card"><div class="process-number">02</div><h3>현장 확인</h3><p>현장의 상태와 필요한 작업 범위를 꼼꼼하게 확인합니다.</p></div>
+    <div class="process-card"><div class="process-number">03</div><h3>시공</h3><p>작업 범위를 확인한 뒤 필요한 부분을 순서대로 작업합니다.</p></div>
+    <div class="process-card"><div class="process-number">04</div><h3>마무리</h3><p>작업 상태를 다시 확인하고 주변을 정리한 뒤 마무리합니다.</p></div>
+</div>
+</div>
+</section>
+
+<section class="area" id="area">
+<div class="container">
+<div class="section-head">
+    <div class="section-label">SERVICE AREA</div>
+    <h2 class="section-title">경기북부 전지역 출장</h2>
+    <p class="section-description">양주를 중심으로 경기북부 지역을 찾아갑니다.</p>
+</div>
+<div class="area-box">
+    <h3>옥정홈마스터 출장 가능 지역</h3>
+    <div class="area-list">
+        <span>양주</span><span>옥정</span><span>의정부</span><span>포천</span>
+        <span>동두천</span><span>연천</span><span>경기북부</span>
+    </div>
+    <p>위 지역 외 경기북부 지역도 출장 가능 여부를 상담해 주세요.</p>
+</div>
+</div>
+</section>
+
+<section class="seo-content">
+<div class="container">
+<div class="section-head">
+    <div class="section-label">LOCAL HOME REPAIR</div>
+    <h2 class="section-title">가까운 지역의 집수리 전문가</h2>
+    <p class="section-description">생활 속에서 갑자기 필요한 집수리, 가까운 전문가에게 편하게 상담해보세요.</p>
+</div>
+<div class="seo-grid">
+    <div class="seo-box"><h3>양주 수전교체</h3><p>양주 지역에서 주방이나 욕실 수전이 오래되어 교체가 필요한 경우 현장 상태를 확인하고 필요한 작업을 진행합니다.</p></div>
+    <div class="seo-box"><h3>의정부 방충망</h3><p>의정부 지역의 노후 방충망이나 찢어진 방충망을 교체하고 생활 공간에 맞는 작업 방법을 안내해드립니다.</p></div>
+    <div class="seo-box"><h3>포천 욕실리모델링</h3><p>포천 지역 욕실의 노후 상태와 필요한 공정을 확인하여 욕실 및 화장실 리모델링을 진행합니다.</p></div>
+    <div class="seo-box"><h3>동두천·연천 집수리</h3><p>동두천과 연천을 비롯한 경기북부 지역에서 수전, 타일, 방충망, LED조명 등 다양한 생활 집수리 서비스를 제공합니다.</p></div>
+</div>
+</div>
+</section>
+
+
+<section class="seo-content" id="regions">
+<div class="container">
+<div class="section-head">
+    <div class="section-label">LOCAL SERVICE</div>
+    <h2 class="section-title">지역별 집수리 안내</h2>
+    <p class="section-description">지역과 작업 내용을 확인하고 필요한 집수리를 상담해보세요.</p>
+</div>
+<div class="seo-grid">
+    <div class="seo-box"><h3><a href="yangju.html">양주 집수리</a></h3><p>양주·옥정 지역의 수전교체, 욕실·화장실, 타일, 싱크볼, 방충망, LED 조명 등 생활 집수리 안내입니다.</p></div>
+    <div class="seo-box"><h3><a href="uijeongbu.html">의정부 집수리</a></h3><p>의정부 지역에서 필요한 방충망, 수전, 타일, 욕실 관련 집수리를 현장에 맞춰 상담합니다.</p></div>
+    <div class="seo-box"><h3><a href="pocheon.html">포천 집수리</a></h3><p>포천 지역 욕실리모델링과 타일, 수전, 생활 집수리 작업 내용을 확인할 수 있습니다.</p></div>
+    <div class="seo-box"><h3><a href="dongducheon.html">동두천 집수리</a></h3><p>동두천 지역의 주방·욕실 수전, 방충망, 조명 등 생활 집수리 상담을 안내합니다.</p></div>
+    <div class="seo-box"><h3><a href="yeoncheon.html">연천 집수리</a></h3><p>연천 지역 출장 집수리와 욕실, 수전, 방충망, 조명 등의 작업을 상담합니다.</p></div>
+</div>
+</div>
+</section>
+
+<section class="cta" id="contact">
+<div class="container">
+    <h2>집수리, 어디에 맡길지 고민되시나요?</h2>
+    <p>작업할 곳의 사진을 준비해주시면 상담에 도움이 됩니다.</p>
+    <div class="phone">010-5717-8352</div>
+    <a href="tel:01057178352" class="btn btn-primary">지금 전화상담하기</a>
+</div>
+</section>
+
+<footer>
+<div class="container">
+    <div class="footer-logo">옥정홈마스터</div>
+    <p>경기북부 출장 집수리 전문</p>
+    <p>출장지역 : 양주 · 의정부 · 포천 · 동두천 · 연천 등 경기북부 전지역</p>
+    <p>지역별 안내 : <a href="yangju.html">양주</a> · <a href="uijeongbu.html">의정부</a> · <a href="pocheon.html">포천</a> · <a href="dongducheon.html">동두천</a> · <a href="yeoncheon.html">연천</a></p>
+    <p>대표 서비스 : 욕실·화장실 리모델링 · 타일 · 수전교체 · 싱크볼교체 · 방충망 · LED조명 · 생활 집수리</p>
+    <p style="margin-top:15px;">상담전화 : 010-5717-8352</p>
+    <p style="margin-top:20px;">© 2026 옥정홈마스터. All Rights Reserved.</p>
+</div>
+</footer>
+
+<div class="mobile-call">
+    <a href="tel:01057178352">☎ 옥정홈마스터 전화상담 010-5717-8352</a>
+</div>
+
+</body>
+</html>
